@@ -1942,9 +1942,9 @@ footer {
     }
 
     .floating-btn {
-        width: 55px;
-        height: 55px;
-        font-size: 1.5rem;
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
     }
 
     /* Bottom Navigation - Mobile Sticky */
@@ -1955,19 +1955,19 @@ footer {
         right: 0;
         width: 100%;
         border-radius: 0;
-        padding: 0.6rem 0.5rem;
         gap: 1rem;
+    padding: 0.8rem 1rem;
         box-shadow: none;
         transform: none;
     }
 
     .bottom-nav-item span {
         display: block;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .bottom-nav-item i {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     /* Navigation */
