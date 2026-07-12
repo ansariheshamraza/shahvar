@@ -1,0 +1,80 @@
+# SHAHVAR Men's Ethnic Wear - SEO Robots Configuration
+# Allow search engines to crawl and index the website
+
+# Global rules for all bots
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /faq/index.html
+Allow: /about/index.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /sitemap.xml
+
+# Disallow private/admin areas (if any exist in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Allow specific high-priority pages
+Allow: /faq/
+
+# Crawl-delay and request-rate (optional - most modern bots ignore these)
+Crawl-delay: 0
+
+# Specify sitemap location
+Sitemap: https://shahvar.vercel.app/sitemap.xml
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing-specific rules
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Facebook-specific (for social sharing)
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter-specific (for social sharing)
+User-agent: Twitterbot
+Allow: /
+
+# Instagram crawler
+User-agent: Instagram
+Allow: /
+
+# LinkedIn crawler
+User-agent: LinkedInBot
+Allow: /
+
+# Block unwanted bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MojeekBot
+Disallow: /
+
+# Allow mobile crawlers
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot-Mobile
+Allow: /
