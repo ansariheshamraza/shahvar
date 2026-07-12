@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <!-- Google tag (gtag.js) -->
+     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-67WXB40Y27"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -1309,26 +1309,7 @@
     </script>
 
     <script>
-        // FAQ Toggle Functionality - Ensure it works even if DOM isn't fully ready
-        function initFAQ() {
-            document.querySelectorAll('.faq-question').forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    const faqItem = this.parentElement;
-                    faqItem.classList.toggle('active');
-                });
-            });
-        }
-        
-        // Run when DOM is ready
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initFAQ);
-        } else {
-            initFAQ();
-        }
-
-        // Mobile Menu Toggle
+        // Mobile Menu Toggle Only - FAQ is handled by onclick handler
         function initMobileMenu() {
             const menuToggle = document.querySelector('.menu-toggle');
             const navMenu = document.querySelector('nav ul');
