@@ -1927,8 +1927,8 @@ footer {
     /* Floating Buttons */
     .floating-buttons {
         bottom: 1rem;
-        gap: 0.8rem;
-        padding: 0 1rem;
+        gap: 0.6rem;
+        padding: 0 0.5rem;
     }
 
     .floating-whatsapp {
@@ -1942,9 +1942,9 @@ footer {
     }
 
     .floating-btn {
-        width: 45px;
-        height: 45px;
-        font-size: 1.3rem;
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
     }
 
     /* Bottom Navigation - Mobile Sticky */
@@ -1955,7 +1955,7 @@ footer {
         right: 0;
         width: 100%;
         border-radius: 0;
-        gap: 1rem;
+        gap: 0.8rem;
     padding: 0.8rem 1rem;
         box-shadow: none;
         transform: none;
@@ -1967,7 +1967,7 @@ footer {
     }
 
     .bottom-nav-item i {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     /* Navigation */
