@@ -1905,7 +1905,7 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
     /* Announcement Bar */
     .announcement-bar {
         padding: 0.4rem 0;
