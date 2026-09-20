@@ -7,6 +7,9 @@ Allow: /
 Allow: /index.html
 Allow: /faq/index.html
 Allow: /about/index.html
+Allow: /mens-suits-santacruz-west/index.html
+Allow: /mens-ethnic-wear-santacruz-west/index.html
+Allow: /mens-wedding-occasion-wear-santacruz-west/index.html
 Allow: /css/
 Allow: /js/
 Allow: /images/
@@ -24,6 +27,7 @@ Disallow: /*?*filter=
 
 # Allow specific high-priority pages
 Allow: /faq/
+Allow: /mens-wedding-occasion-wear-santacruz-west/
 
 # Crawl-delay and request-rate (optional - most modern bots ignore these)
 Crawl-delay: 0
