@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
     <!-- Homepage -->
     <url>
         <loc>https://shahvar.vercel.app/</loc>
-        <lastmod>2026-07-12</lastmod>
-
+        <lastmod>2026-09-20</lastmod>
         <image:image>
             <image:loc>https://shahvar.vercel.app/images/hero-bg.jpg</image:loc>
             <image:title>SHAHVAR Luxury Men's Ethnic Wear</image:title>
         </image:image>
     </url>
 
-    <!-- About -->
+    <!-- Men's Suits in Santacruz West -->
+    <url>
+        <loc>https://shahvar.vercel.app/mens-suits-santacruz-west/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <image:image>
+            <image:loc>https://shahvar.vercel.app/images/formal-suits-collection.jpg</image:loc>
+            <image:title>Designer Men's Suits in Santacruz West</image:title>
+        </image:image>
+    </url>
+
+    <!-- Men's Ethnic Wear in Santacruz West -->
+    <url>
+        <loc>https://shahvar.vercel.app/mens-ethnic-wear-santacruz-west/</loc>
+        <lastmod>2026-09-20</lastmod>
+        <image:image>
+            <image:loc>https://shahvar.vercel.app/images/sherwani-collection.jpg</image:loc>
+            <image:title>Designer Men's Ethnic Wear in Santacruz West</image:title>
+        </image:image>
+    </url>
+
+    <!-- About SHAHVAR -->
     <url>
         <loc>https://shahvar.vercel.app/about/</loc>
-        <lastmod>2026-07-12</lastmod>
-
+        <lastmod>2026-09-20</lastmod>
         <image:image>
             <image:loc>https://shahvar.vercel.app/images/logo.jpg</image:loc>
-            <image:title>SHAHVAR Luxury Menswear Brand</image:title>
+            <image:title>About SHAHVAR Men's Ensemble Studio</image:title>
         </image:image>
     </url>
 
     <!-- FAQ -->
     <url>
         <loc>https://shahvar.vercel.app/faq/</loc>
-        <lastmod>2026-07-12</lastmod>
+        <lastmod>2026-09-20</lastmod>
     </url>
 
 </urlset>

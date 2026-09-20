@@ -11,6 +11,8 @@ Allow: /css/
 Allow: /js/
 Allow: /images/
 Allow: /sitemap.xml
+Allow: /llms.txt
+Allow: /llms-full.txt
 
 # Disallow private/admin areas (if any exist in future)
 Disallow: /admin/
